@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <Header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./carta.html">Carta digital</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./eventos.html">Eventos</a>
+                </li>
+                <li>
+                    <a href="./nuestroCafe.html">Nuestro Cafe</a>
+                </li>
+                <li>
+                    <a href="./ubicaciones.html">Ubicaciones</a>
+                </li>
+            </ul>
+        </nav>
+    </Header>   
+
+    <section class="formulario">
+			<form>
+        
+                <div>
+                <label for="Ej.Marcos Perez">Nombre Completo</label>
+				<input type="text" placeholder="Ej:Marcos Perez"></div>
+
+                <div>
+				<label for="email">Tu Correo:
+				<input type="email" placeholder="Ej:Marcos_123@gmail.com" name="email"><br>
+				</label></div>
+
+                <div><p>
+				<label for="Texto"> Cuentanos en que te podemos ayudar:<br>
+					<textarea placeholder="Texto"></textarea>
+				</label> <br>
+                </p></div>
+
+                <div>
+                    <label for="DECIME TU EDAD">Edad</label>
+				<input type="number" placeholder="DECIME TU EDAD"><br>
+                <p></div>
+
+                <div>Hombre</div>
+                <input type="radio" name="Sexo" value="Hombre" />
+                <div>Mujer</div>
+                <input type="radio" name="sexo" value="Mujer" /> 
+
+				<div><p>Que prefiere mas?:</p>
+					<div>Pedir para llevar
+						<input type="radio" name="lado" value="Pido para llevar">
+					</div>
+					<div>Consumir en el local
+						<input type="radio" name="lado" value="Consumo en el local">
+					</div>
+				</div>
+                <div>
+				<p>Que Café te gusta mas?</p>
+				<select name="letra" id="letra"> 
+					<option value="Cappuccino">Cappuccino</option>
+					<option value="Expresso/ Café solo">Expresso/ Café solo</option>
+					<option value="Café con leche">Café con leche</option>
+				</select>
+                </div>
+
+                <div><p>
+				<div> Quiere enviar el formulario?
+				<input type="checkbox" name="acepta" value="1"></div>
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Resetear">
+                </p> </div>
+			</form>
+            
+        <div class="corazon">
+            <img class="corazon" src="../Imagenes/C3 (1).jpg" alt="cafe">
+        </div>
+        
+	</section>  
+</body>
+
+
+    <Footer>
+        <p>
+            <img src="../Iconos/icons8-facebook-nuevo.svg" alt="facebook">
+            <img src="../Iconos/icons8-instagram.svg" alt="instagram">
+        </p>
+    </Footer>
+</html>
