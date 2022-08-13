@@ -306,7 +306,7 @@ body{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr;
-        font-size: 107%;
+        font-size: 150%;
     }
 
     .video{
