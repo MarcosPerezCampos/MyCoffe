@@ -44,6 +44,10 @@ li{
     display: inline;
 }
 
+li:hover{
+
+}
+
 a{
     text-decoration: none;
     font-weight:bold;
@@ -293,6 +297,7 @@ body{
     li{
         position:relative; left: 160px;
         display: inline;
+        font-size: 100%;
     }    
 
     main{
