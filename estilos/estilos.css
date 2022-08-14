@@ -52,6 +52,7 @@ a{
     transition: all 2s;
     text-decoration: none;
     font-weight:bold;
+    background-color: none;
     color:#E6CCB2
 }
 
