@@ -38,7 +38,6 @@ ul{
     grid-area: nav;
 }
 li{
-    background-size: 100%;
     grid-area: nav;
     position:relative; left: 160px;
     display: inline;
@@ -52,10 +51,12 @@ li:hover{
 a{
     text-decoration: none;
     font-weight:bold;
-    color:#E6CCB2
+    background-color:#E6CCB2
     
-    
-    
+}
+
+a:hover{
+
 }
 main{
     display: grid;
