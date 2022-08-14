@@ -49,17 +49,19 @@ li:hover{
 }
 
 a{
-    transition: all 2s;
+    
+    background-color: none;
     text-decoration: none;
     font-weight:bold;
-    background-color: none;
+    transition: all 2s;
+    font-size: 100%;
     color:#E6CCB2
 }
 
 a:hover{
-    background-color: #5E3023;
-
+    font-size: 150%;
 }
+
 main{
     display: grid;
     grid-template-rows: 660px ;
@@ -150,8 +152,12 @@ section{
 
 .producto{
     margin: 1px;
-    width: 200px;
+    width: 40%;
     padding: 0px;
+    transition: all 2s;
+}
+.producto:hover{
+    width: 60%;
 }
 
 .textocarta{
