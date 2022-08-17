@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 5px;
     padding: 1px;
 }
 
@@ -25,6 +25,8 @@ header{
     background-color: #E6CCB2;
     list-style: none;  
     overflow: hidden;
+    margin: 5px;
+    padding: 5px;
 }
 
 nav{
@@ -60,6 +62,7 @@ a{
 
 a:hover{
     font-size: 150%;
+    color:#E6CCB2
 }
 
 main{
@@ -131,8 +134,8 @@ section{
 }
 
 .video{
-    margin: -52px;
-    padding: 60px;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     height: 100%;
     
@@ -157,7 +160,7 @@ section{
     transition: all 2s;
 }
 .producto:hover{
-    width: 60%;
+    width: 50%;
 }
 
 .textocarta{
@@ -171,7 +174,7 @@ footer{
     grid-area: footer;
     background-image: url(../Imagenes/cabecera\ \(1\).jpg);
     background-repeat: no-repeat;
-    background-position: center bottom -5cm; 
+    background-position: center bottom -8cm; 
     background-color: #E6CCB2;
     width: 100%;
     height: 90px;
@@ -191,6 +194,65 @@ body{
     "footer"
     ;
 }
+
+.carrusel{
+    margin-right: 5%;
+}
+
+.carrusel2{
+    width: 75%;
+    margin-top: 0%;
+    overflow: hidden;
+    justify-content: center;
+    position: relative; left: 20%;
+
+}
+.divvaso{display: flex;}
+
+.vaso{
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.textonuestrocafe{
+    margin: 1px;
+    margin-top: 7%;
+    text-align: left;
+    font-size: 160%;
+    padding: 0px;
+}
+
+.bg-light{
+    --bs-bg-opacity: 0;
+}
+
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-letras{
+    color: #E6CCB2;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.carrusel3{
+    margin: 1%;
+    padding: 1%;
+    position: relative; left: 20%;
+    width: 45%;
+    overflow: hidden;
+}
+
 @media (min-width:320px){
     
     header{
@@ -321,17 +383,17 @@ body{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr;
-        font-size: 150%;
+        font-size: 100%;
     }
 
     .video{
-        margin-top: -74px;
+        margin-top: -35px;
     }
 
     footer{
         display: grid;
         grid-template-columns: 100%;
-        background-position: center bottom -5cm
+        background-position: center bottom -8cm
     }
 
     .formulario{
@@ -345,6 +407,14 @@ body{
         margin: 0px;
         margin-left: 0px;
         width: 100%;
+        padding: 0px;
+    }
+
+    .textonuestrocafe{
+        margin: 1px;
+        margin-top: 7%;
+        text-align: left;
+        font-size: 160%;
         padding: 0px;
     }
 }

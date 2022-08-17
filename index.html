@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/estilos.css">
     <title>My Coffe</title>
 </head>
@@ -17,7 +18,7 @@
                     <a href="index.html">Inicio </a> 
                 </li>
                 <li>
-                    <a href="./secciones/carta.html">Carta digital</a>
+                    <a href="./secciones/carta.html">Carta</a>
                 </li>
                 <li>
                     <a href="./secciones/contacto.html">Contacto</a>
@@ -27,9 +28,6 @@
                 </li>
                 <li>
                     <a href="./secciones/nuestroCafe.html">Nuestro Cafe</a>
-                </li>
-                <li>
-                    <a href="./secciones/ubicaciones.html">Ubicaciones</a>
                 </li>
             </ul>
         </nav>
@@ -50,14 +48,32 @@
             alias consequatur! Laudantium eligendi vitae repudiandae nam architecto quidem voluptatem expedita
             laboriosam dolores cupiditate temporibus, repellat asperiores!</p> </div>
 
-        <div class="divindex"><img src="./Imagenes/UC8A1834.jpg" alt="Cafeteria" class="cafe"> </div>
+        <div id="carouselExampleControls" class="carousel slide carrusel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Imagenes/UC8A1834.jpg" class="d-block w-100" alt="Cafe">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/UC8A1864.jpg" class="d-block w-100" alt="Cafe">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/Daily-Sivak-and-Partners-MF-7-1024x683.jpg" class="d-block w-100" alt="Cafe">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         
 
     </main>
 
     <section>
-        <h2 > Inspiracion </h2>
-        <h2></h2>
 
         <div class="divindex"><iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/1lXHy3yzAOY" title="YouTube video player" 
             frameborder="0"
@@ -66,7 +82,8 @@
          </iframe>
         </div>
 
-        <div class="divindex" class="textto"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum itaque incidunt maiores eius
+        <div class="divindex" class="textto"><h2 > Inspiracion </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat harum itaque incidunt maiores eius
             reiciendis molestiae cum fugit autem enim eaque nisi quo porro magnam, necessitatibus architecto, facere ea
             odio.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas ullam, tenetur odio nostrum placeat reprehenderit nemo error consequuntur animi, porro minima, voluptate esse magnam repellat delectus culpa quod iure doloribus?</p>
@@ -82,6 +99,8 @@
             <img src="./Iconos/icons8-instagram.svg" alt="intagram">
         </p>
     </Footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 
