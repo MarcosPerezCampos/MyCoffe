@@ -1,0 +1,106 @@
+@media (min-width:1200px){
+
+
+    header{
+        width: 100%;
+        height: 90px;
+        background-repeat: no-repeat;
+        background-position: center left; 
+        background-size: 115%;
+        background-color: #E6CCB2;
+        list-style: none;  
+        overflow: hidden;}
+
+    ul{
+        margin-top: 1%;
+    }
+
+    li{
+        position:relative;  left: 10%;
+        display: inline;
+        font-size: 120%;
+    }    
+
+    main{
+        display: grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr;
+        font-size: 100%;
+    }
+
+    .main2{
+        display: grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr;
+        font-size: 100%;
+    }
+
+
+    section{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 100%;
+    }
+
+    .section2{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 100%;
+    }
+
+    .cafes{
+        margin-top: 0%;
+    }
+
+    .divindex{
+        margin-top: 2%;
+        font-size: 96%;
+    }
+
+    .video{
+        margin-top: 0%;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 100%;
+        background-position: center bottom -6cm
+    }
+
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .corazon{
+        overflow: hidden;
+        justify-items: start;
+        margin: 2%;
+        margin-left: 0px;
+        width: 95%;
+        padding: 0px;
+    }
+
+    .textonuestrocafe{
+        margin: 1px;
+        margin-top: 7%;
+        text-align: left;
+        font-size: 160%;
+        padding: 0px;
+    }
+
+    .producto {
+        width: 55%;
+        transition: all 2s;
+    }
+
+    .iconos{
+        display: inline;
+        width: 6%;
+    }
+}
+
+
+

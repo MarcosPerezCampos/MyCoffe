@@ -1,0 +1,60 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: section;
+    width: 100%;
+    background-color:#E6CCB2;
+    text-align: center;
+    font-style: initial;
+    font-size: 160%;
+    .formulario{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        background-color:#E6CCB2;
+        text-align:center;
+        font-style: initial;
+        font-size: 140%;
+        margin-top: 0%;
+    }
+    .corazon{
+        overflow: hidden;
+        justify-items: end;
+        margin: -1px;
+        margin-left: 1px;
+        padding: 0px;
+    }
+    
+}
+
+.divindex{
+    margin-top: 6%;
+    text-align: justify;
+    .video{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        
+    }
+ }
+
+section{
+    .cafes{
+        justify-content: center;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .textonuestrocafe2{
+        
+        text-align: left;
+        padding: 0px;
+    }
+}
+
+
+

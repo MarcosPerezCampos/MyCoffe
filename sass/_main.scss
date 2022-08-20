@@ -1,0 +1,60 @@
+main{
+    display: grid;
+    grid-template-rows: 660px ;
+    grid-template-columns: 1fr 1fr;
+    grid-area: main;
+    width: 100%;
+    background-color:#E6CCB2;
+    text-align: center;
+    font-style: initial;
+    font-size: 150%;
+    .divindex{
+        margin-top: 6%;
+        text-align: justify;
+     }
+    
+}
+
+
+
+.carta{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:#E6CCB2;
+    text-align:center;
+    font-style: initial;
+    font-size: 140%;
+    margin: 10px;
+    padding: 1;
+    .producto{
+        margin: 1px;
+        padding: 0px;
+    }
+    .producto:hover{
+        width: 50%;
+    }
+    .textocarta{
+        margin: 1px;
+        font-size: 100%;
+        padding: 0px;
+    }
+}
+
+.textonuestrocafe{
+    margin: 1px;
+    margin-top: 7%;
+    text-align: left;
+    font-size: 160%;
+    padding: 0px;
+}
+
+.carrusel2{
+    width: 95%;
+    margin-top: 15%;
+    overflow: hidden;
+    justify-content: center;
+    position: relative; left: 0%;
+}
+
+

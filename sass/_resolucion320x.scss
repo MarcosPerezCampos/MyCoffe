@@ -1,0 +1,128 @@
+@media (min-width:320px){
+    
+    header{
+        background-position: center left;
+        background-repeat: no-repeat; 
+        background-size: 115%;
+        background-color: #E6CCB2;
+        list-style: none;  
+        overflow: hidden;
+    }
+
+    li{
+        position:relative; left: -30px;
+        font-size: 90%;
+        text-align: left;
+        
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr; 
+    }
+
+    .divindex{
+        margin-top: 0%;
+        text-align: justify;
+        font-size: 60%;
+    }
+
+    .carrusel{
+        margin: 1%;
+        position: relative; left: -4%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .carousel-control-prev {
+        left: 14px;
+    }
+
+    section{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr 1fr;
+        font-size: 150%;
+    }
+
+    .video{
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+    }
+
+    footer{
+        background-size: 100%;
+        background-position: left 50%
+    }
+
+    .iconos{
+        display: block;
+        width: 13%;
+    }
+
+    .producto {
+        width: 100%;
+        transition: all 2s;
+    }
+
+    .carta{
+        text-align: center;
+        font-style: initial;
+        font-size: 100%;
+    }
+
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;}
+
+    .corazon{
+        overflow: hidden;
+        justify-items: end;
+        margin: 0px;
+        margin-left: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .carta{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }   
+
+    .main2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ; 
+        font-size: 65%;
+    }
+
+    .carrusel2{
+        width: 95%;
+        height: 95%;
+        margin-top: 2%;
+        overflow: hidden;
+        justify-content: center;
+        position: relative; left: 0%;
+    }
+
+    .section2{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        font-size: 90%;
+        
+    }
+
+    .textonuestrocafe2{
+        margin: 1px;
+        margin-top: 3%;
+        font-size: 110%;
+        text-align: left;
+        padding: 0px;
+    }
+}
