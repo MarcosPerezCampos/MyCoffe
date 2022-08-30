@@ -54,7 +54,25 @@ section{
         text-align: left;
         padding: 0px;
     }
+
 }
 
+@mixin medidasfotos ($width){
+    width: $width;
+}
+
+.chipa{
+    @include medidasfotos (100%);
+}
+
+@mixin medidastexto ($text-align,$font-size,$background-color){
+    text-align: $text-align;
+    font-size: $font-size;
+    background-color: $background-color;
+}
+
+.textoMixin{
+    @include medidastexto(center, 145%,#7f5539)
+}
 
 

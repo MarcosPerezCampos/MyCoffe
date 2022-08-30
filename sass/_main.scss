@@ -47,6 +47,7 @@ main{
     text-align: left;
     font-size: 160%;
     padding: 0px;
+    background-color: #7f5539;
 }
 
 .carrusel2{
@@ -57,4 +58,15 @@ main{
     position: relative; left: 0%;
 }
 
+.mainEventos{
+    font-size: 150%;
+}
 
+.textoEventos{
+    @extend.textonuestrocafe;
+    text-align: center;
+    
+}
+.eventofoto{
+    width: 100%;
+}

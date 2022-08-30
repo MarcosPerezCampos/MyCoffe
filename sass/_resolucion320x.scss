@@ -125,4 +125,28 @@
         text-align: left;
         padding: 0px;
     }
+
+    .textonuestrocafe{
+        margin: 1px;
+        margin-top: 7%;
+        text-align: left;
+        font-size: 160%;
+        padding: 0px;
+    }
+
+    .textoEventos{
+        text-align: center;   
+    }
+
+    .eventofoto{
+        width: 90%;
+    }
+
+    .section3{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        font-size: 150%;
+    }
+
 }

@@ -59,12 +59,13 @@ main .divindex {
   padding: 0px;
 }
 
-.textonuestrocafe {
+.textonuestrocafe, .textoEventos {
   margin: 1px;
   margin-top: 7%;
   text-align: left;
   font-size: 160%;
   padding: 0px;
+  background-color: #7f5539;
 }
 
 .carrusel2 {
@@ -74,6 +75,18 @@ main .divindex {
   justify-content: center;
   position: relative;
   left: 0%;
+}
+
+.mainEventos {
+  font-size: 150%;
+}
+
+.textoEventos {
+  text-align: center;
+}
+
+.eventofoto {
+  width: 100%;
 }
 
 header {
@@ -117,7 +130,7 @@ header nav ul li a {
   color: #E6CCB2;
 }
 header nav ul li a:hover {
-  font-size: 150%;
+  font-size: 100%;
   color: #E6CCB2;
 }
 
@@ -172,6 +185,16 @@ section .cafes {
 section .textonuestrocafe2 {
   text-align: left;
   padding: 0px;
+}
+
+.chipa {
+  width: 100%;
+}
+
+.textoMixin {
+  text-align: center;
+  font-size: 145%;
+  background-color: #7f5539;
 }
 
 footer {
@@ -297,6 +320,25 @@ footer {
     text-align: left;
     padding: 0px;
   }
+  .textonuestrocafe, .textoEventos {
+    margin: 1px;
+    margin-top: 7%;
+    text-align: left;
+    font-size: 160%;
+    padding: 0px;
+  }
+  .textoEventos {
+    text-align: center;
+  }
+  .eventofoto {
+    width: 90%;
+  }
+  .section3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 150%;
+  }
 }
 @media (min-width: 768px) {
   header {
@@ -348,7 +390,7 @@ footer {
     width: 133%;
     padding: 0px;
   }
-  .textonuestrocafe {
+  .textonuestrocafe, .textoEventos {
     margin: 1px;
     margin-top: 2%;
     text-align: center;
@@ -407,6 +449,12 @@ footer {
     font-size: 160%;
     text-align: left;
     padding: 0px;
+  }
+  .textoEventos {
+    text-align: center;
+  }
+  .eventofoto {
+    width: 90%;
   }
 }
 @media (min-width: 1200px) {
@@ -480,7 +528,7 @@ footer {
     width: 95%;
     padding: 0px;
   }
-  .textonuestrocafe {
+  .textonuestrocafe, .textoEventos {
     margin: 1px;
     margin-top: 7%;
     text-align: left;
@@ -494,6 +542,12 @@ footer {
   .iconos {
     display: inline;
     width: 6%;
+  }
+  .textoEventos {
+    text-align: center;
+  }
+  .eventofoto {
+    width: 93%;
   }
 }
 .textto {
