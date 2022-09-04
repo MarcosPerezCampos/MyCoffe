@@ -30,12 +30,12 @@
     .divindex{
         margin-top: 0%;
         text-align: justify;
-        font-size: 70%;
+        font-size: 85%;
     }
 
     .carrusel{
         margin: 1%;
-        position: relative; left: -1%;
+        position: relative; left: -3%;
         width: 100%;
         overflow: hidden;
     }
@@ -72,6 +72,9 @@
     .producto {
         width: 80%;
         transition: all 2s;
+    }
+    .producto:hover{
+        width: 110%;
     }
 
 

@@ -6,19 +6,19 @@
         height: 90px;
         background-repeat: no-repeat;
         background-position: center left; 
-        background-size: 115%;
+        background-size: 100%;
         background-color: #E6CCB2;
         list-style: none;  
         overflow: hidden;}
 
     ul{
-        margin-top: 1%;
+        margin-top: 0.5%;
     }
 
     li{
         position:relative;  left: 10%;
         display: inline;
-        font-size: 120%;
+        font-size: 140%;
     }    
 
     main{
@@ -32,7 +32,12 @@
         display: grid;
         grid-template-rows: 1fr ;
         grid-template-columns: 1fr 1fr;
-        font-size: 100%;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
     }
 
 
@@ -56,38 +61,53 @@
 
     .divindex{
         margin-top: 2%;
-        font-size: 96%;
+        font-size: 170%;
     }
 
     .video{
-        margin-top: 0%;
+        margin: 0%;
+        width: 100%;
+        height: 83%;
+        margin-top: 6%;
+        
     }
 
     footer{
         display: grid;
-        grid-template-columns: 100%;
-        background-position: center bottom -6cm
+        grid-template-columns: 80%;
+        background-size: 100%;
+        background-position: center bottom -10cm
     }
 
     .formulario{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        font-size: 200%;
     }
 
     .corazon{
         overflow: hidden;
         justify-items: start;
-        margin: 2%;
-        margin-left: 0px;
+        margin: 0%;
+        margin-left: 52px;
         width: 95%;
         padding: 0px;
     }
 
     .textonuestrocafe{
         margin: 1px;
-        margin-top: 7%;
-        text-align: left;
-        font-size: 160%;
+        margin-top: 3%;
+        margin-left: 18%;
+        text-align: center;
+        font-size: 194%;
+        padding: 0px;
+    }
+
+    .textonuestrocafe2 {
+        margin: 1px;
+        margin-top: 3%;
+        font-size: 214%;
+        text-align: center;
         padding: 0px;
     }
 
@@ -95,10 +115,20 @@
         width: 55%;
         transition: all 2s;
     }
+    .producto:hover{
+        width: 70%;
+    }
+
+    .textocarta {
+        margin: 1px;
+        font-size: 170%;
+        padding: 0px;
+    }
 
     .iconos{
         display: inline;
         width: 6%;
+        margin-top: -1%;
     }
 
     .textoEventos{
@@ -107,6 +137,20 @@
 
     .eventofoto{
         width: 93%;
+    }
+
+    .carrusel2 {
+        width: 65%;
+        margin-top: 2%;
+        overflow: hidden;
+        justify-content: end;
+        position: relative;
+        left: 0%;
+    }
+
+    .carousel.pointer-event {
+        touch-action: pan-y;
+        margin-left: 29%;
     }
 }
 
