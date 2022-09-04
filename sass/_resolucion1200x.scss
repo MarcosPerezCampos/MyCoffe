@@ -1,6 +1,5 @@
 @media (min-width:1200px){
-
-
+    
     header{
         width: 100%;
         height: 90px;
@@ -139,19 +138,20 @@
         width: 93%;
     }
 
+    .carrusel{
+        margin-left: 2%;
+    }
+
     .carrusel2 {
         width: 65%;
         margin-top: 2%;
+        
         overflow: hidden;
         justify-content: end;
         position: relative;
         left: 0%;
     }
 
-    .carousel.pointer-event {
-        touch-action: pan-y;
-        margin-left: 29%;
-    }
 }
 
 
