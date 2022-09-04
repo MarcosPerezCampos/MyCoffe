@@ -11,7 +11,7 @@
 
     li{
         position:relative; left: -30px;
-        font-size: 90%;
+        font-size: 120%;
         text-align: left;
         
     }
@@ -22,15 +22,20 @@
         grid-template-rows: 2fr 1fr; 
     }
 
+    main .divindex {
+        margin-top: 0%;
+        text-align: justify;
+    }
+
     .divindex{
         margin-top: 0%;
         text-align: justify;
-        font-size: 60%;
+        font-size: 70%;
     }
 
     .carrusel{
         margin: 1%;
-        position: relative; left: -4%;
+        position: relative; left: -1%;
         width: 100%;
         overflow: hidden;
     }
@@ -61,6 +66,7 @@
     .iconos{
         display: block;
         width: 13%;
+        margin-top: -2%;
     }
 
     .producto {
@@ -110,6 +116,12 @@
         position: relative; left: 0%;
     }
 
+    .carousel-inner {
+        position: relative;
+        width: 115%;
+        overflow: hidden;
+    }
+
     .section2{
         display: grid;
         grid-template-columns:1fr;
@@ -127,10 +139,10 @@
     }
 
     .textonuestrocafe{
-        margin: 1px;
-        margin-top: 7%;
+        margin: 3px;
+        margin-top: 5%;
         text-align: left;
-        font-size: 160%;
+        font-size: 200%;
         padding: 0px;
     }
 
