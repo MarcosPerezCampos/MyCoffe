@@ -51,7 +51,7 @@ main .divindex {
   padding: 0px;
 }
 .carta .producto:hover {
-  width: 50%;
+  width: 110%;
 }
 .carta .textocarta {
   margin: 1px;
@@ -222,7 +222,7 @@ footer {
   li {
     position: relative;
     left: -30px;
-    font-size: 120%;
+    font-size: 150%;
     text-align: left;
   }
   main {
@@ -270,7 +270,7 @@ footer {
     margin-top: -2%;
   }
   .producto {
-    width: 100%;
+    width: 80%;
     transition: all 2s;
   }
   .carta {
