@@ -21,7 +21,7 @@ h2 {
 
 main {
   display: grid;
-  grid-template-rows: 660px;
+  grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
   grid-area: main;
   width: 100%;
@@ -114,20 +114,17 @@ header nav ul li {
   position: relative;
   display: inline;
 }
-header nav ul li:hover {
-  font-size: 200%;
-}
 header nav ul li a {
   background-color: none;
   text-decoration: none;
   font-weight: bold;
-  transition: all 2s;
+  transition: all 0.5s;
   font-size: 100%;
   color: #E6CCB2;
 }
 header nav ul li a:hover {
   font-size: 100%;
-  color: #E6CCB2;
+  color: #895737;
 }
 
 section {
@@ -146,7 +143,7 @@ section .formulario {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr;
   background-color: #E6CCB2;
-  text-align: center;
+  text-align: left;
   font-style: initial;
   font-size: 140%;
   margin-top: 0%;
@@ -222,10 +219,6 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 2fr 1fr;
   }
-  main .divindex {
-    margin-top: 0%;
-    text-align: justify;
-  }
   .divindex {
     margin-top: 0%;
     text-align: justify;
@@ -244,22 +237,17 @@ footer {
   section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     font-size: 150%;
   }
   .video {
     margin: 0px;
     padding: 0px;
-    height: 100%;
+    width: 100%;
   }
   footer {
     background-size: 100%;
     background-position: left 50%;
-  }
-  .iconos {
-    display: block;
-    width: 13%;
-    margin-top: -2%;
   }
   .producto {
     width: 80%;
@@ -433,10 +421,6 @@ footer {
     grid-template-rows: 1fr 1fr;
     font-size: 100%;
   }
-  .iconos {
-    display: inline;
-    width: 9%;
-  }
   .producto {
     width: 70%;
     transition: all 2s;
@@ -492,15 +476,19 @@ footer {
     grid-template-columns: 1fr 1fr;
     font-size: 100%;
   }
-  .main2 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+  .carrusel {
+    margin-left: 4%;
   }
-  .carousel-inner {
+  .carousel-item1 {
     position: relative;
+    left: 0%;
+    display: none;
+    float: left;
     width: 100%;
-    overflow: hidden;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
   }
   section {
     display: grid;
@@ -508,14 +496,37 @@ footer {
     grid-template-rows: 1fr;
     font-size: 100%;
   }
-  .section2 {
+  .formulario {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    font-size: 100%;
+    grid-template-columns: 1fr 1fr;
+    font-size: 200%;
   }
-  .cafes {
-    margin-top: 0%;
+  form {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    position: relative;
+    left: 5%;
+  }
+  .div1 {
+    position: relative;
+    left: -11%;
+  }
+  .div2 {
+    position: relative;
+    left: -4%;
+  }
+  .div3 {
+    position: relative;
+    left: 5%;
+  }
+  .corazon {
+    overflow: hidden;
+    justify-items: start;
+    margin: 0%;
+    margin-left: 52px;
+    width: 95%;
+    padding: 0px;
   }
   .divindex {
     margin-top: 2%;
@@ -527,24 +538,10 @@ footer {
     height: 83%;
     margin-top: 6%;
   }
-  footer {
+  .main2 {
     display: grid;
-    grid-template-columns: 80%;
-    background-size: 100%;
-    background-position: center bottom -10cm;
-  }
-  .formulario {
-    display: grid;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
-    font-size: 200%;
-  }
-  .corazon {
-    overflow: hidden;
-    justify-items: start;
-    margin: 0%;
-    margin-left: 52px;
-    width: 95%;
-    padding: 0px;
   }
   .textonuestrocafe, .textoEventos {
     margin: 1px;
@@ -554,38 +551,16 @@ footer {
     font-size: 194%;
     padding: 0px;
   }
-  .textonuestrocafe2 {
-    margin: 1px;
-    margin-top: 3%;
-    font-size: 214%;
-    text-align: center;
-    padding: 0px;
-  }
-  .producto {
-    width: 55%;
-    transition: all 2s;
-  }
-  .producto:hover {
-    width: 70%;
-  }
-  .textocarta {
-    margin: 1px;
-    font-size: 170%;
-    padding: 0px;
-  }
-  .iconos {
-    display: inline;
-    width: 6%;
-    margin-top: -1%;
-  }
-  .textoEventos {
-    text-align: center;
-  }
-  .eventofoto {
-    width: 93%;
-  }
-  .carrusel {
-    margin-left: 2%;
+  .carousel-item2 {
+    position: relative;
+    left: -22%;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
   }
   .carrusel2 {
     width: 65%;
@@ -593,7 +568,57 @@ footer {
     overflow: hidden;
     justify-content: end;
     position: relative;
-    left: 0%;
+    left: 22%;
+  }
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 100%;
+  }
+  .cafes {
+    margin-top: 0%;
+  }
+  .textonuestrocafe2 {
+    margin: 1px;
+    margin-top: 3%;
+    font-size: 214%;
+    text-align: center;
+    padding: 0px;
+  }
+  .carta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .producto {
+    width: 40%;
+    transition: all 2s;
+  }
+  .producto:hover {
+    width: 50%;
+  }
+  .textocarta {
+    margin: 1px;
+    font-size: 170%;
+    padding: 0px;
+  }
+  .textoEventos {
+    text-align: center;
+  }
+  .eventofoto {
+    width: 93%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 80%;
+    background-size: 100%;
+    background-position: center bottom -10cm;
   }
 }
 .textto {

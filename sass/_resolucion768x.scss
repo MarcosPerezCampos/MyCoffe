@@ -13,16 +13,14 @@
         overflow: hidden;
         font-size: 130%;
         width: 100%;
-    }
-    
-    ul{
-        margin-top: 2%;
-    }
-
-    li{
-        position:relative; left: 10px;
-        font-size: 90%;
-    }
+                    }
+                    ul{
+                       margin-top: 2%;
+                              }
+                              li{
+                              position:relative; left: 10px;
+                              font-size: 90%;
+                             }
 
     main{
         display: grid;
@@ -101,10 +99,7 @@
         font-size: 100%;
     }
 
-    .iconos {
-        display: inline;
-        width: 9%;
-    }
+    
 
     .producto {
         width: 70%;

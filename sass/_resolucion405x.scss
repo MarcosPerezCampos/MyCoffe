@@ -7,67 +7,59 @@
         background-color: #E6CCB2;
         list-style: none;  
         overflow: hidden;
-    }
-
-    li{
-        position:relative; left: -30px;
-        font-size: 150%;
-        text-align: left;
-        
-    }
+          }
+          li{
+            position:relative; left: -30px;
+            font-size: 150%;
+            text-align: left;    
+        }
 
     main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr; 
+        }
+       
+        .divindex{
+            margin-top: 0%;
+            text-align: justify;
+            font-size: 85%;
+        }
+        .carrusel{
+            margin: 1%;
+            position: relative; left: -3%;
+            width: 100%;
+            overflow: hidden;
+        }
+    
+    
+        .carousel-control-prev {
+            left: 14px;
     }
-
-    main .divindex {
-        margin-top: 0%;
-        text-align: justify;
-    }
-
-    .divindex{
-        margin-top: 0%;
-        text-align: justify;
-        font-size: 85%;
-    }
-
-    .carrusel{
-        margin: 1%;
-        position: relative; left: -3%;
-        width: 100%;
-        overflow: hidden;
-    }
-
-
-    .carousel-control-prev {
-        left: 14px;
-    }
+    
 
     section{
         display: grid;
         grid-template-columns:1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
         font-size: 150%;
-    }
+                   }
+                  
+                   .video{
+                    margin: 0px;
+                    padding: 0px;
+                    width: 100%;
+                    
+                }
 
-    .video{
-        margin: 0px;
-        padding: 0px;
-        height: 100%;
-    }
+    
 
     footer{
         background-size: 100%;
         background-position: left 50%
     }
 
-    .iconos{
-        display: block;
-        width: 13%;
-        margin-top: -2%;
-    }
+   
 
     .producto {
         width: 80%;

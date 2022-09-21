@@ -1,0 +1,179 @@
+@media (min-width:1200px){
+    
+    header{
+        width: 100%;
+        height: 90px;
+        background-repeat: no-repeat;
+        background-position: center left; 
+        background-size: 100%;
+        background-color: #E6CCB2;
+        list-style: none;  
+        overflow: hidden;
+        }
+        
+        ul{
+            margin-top: 0.5%;
+                         }
+                         li{
+                           position:relative;  left: 10%;
+                           display: inline;
+                           font-size: 140%;
+    }    
+
+    main{
+        display: grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr;
+        font-size: 100%;
+                }
+                 .carrusel{
+                 margin-left: 4%;
+                 }
+                 .carousel-item1{
+                    position: relative; left: 0%;
+                    display: none;
+                    float: left;
+                    width: 100%;
+                    margin-right: -100%;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    transition: transform .6s ease-in-out;
+    }                   
+    section{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 100%;
+                     }
+                     
+                     .formulario{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        font-size: 200%;
+                              }
+                              form{
+                                display: grid;
+                                grid-template-columns: 1fr;
+                                text-align:center; 
+                                position: relative; left: 5%;
+                            }
+                            .div1{
+                                  position: relative; left: -11%;
+                            }
+                            .div2{
+                                position: relative; left: -4%;
+                            }
+                            .div3{
+                                position: relative; left: 5%;
+                            }
+                            .corazon{
+                                overflow: hidden;
+                                justify-items: start;
+                                margin: 0%;
+                                margin-left: 52px;
+                                width: 95%;
+                                padding: 0px;
+                            }
+                            .divindex{
+                                margin-top: 2%;
+                                font-size: 170%;
+                            }
+                            .video{
+                                margin: 0%;
+                                width: 100%;
+                                height: 83%;
+                                margin-top: 6%;
+                                
+    }
+
+    .main2{
+        display: grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr;
+                   }
+                   .textonuestrocafe{
+                    margin: 1px;
+                    margin-top: 3%;
+                    margin-left: 18%;
+                    text-align: center;
+                    font-size: 194%;
+                    padding: 0px;
+                }
+                   .carousel-item2{
+                    position: relative; left: -22%;
+                    display: none;
+                    float: left;
+                    width: 100%;
+                    margin-right: -100%;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    transition: transform .6s ease-in-out;
+                }
+                .carrusel2 {
+                    width: 65%;
+                    margin-top: 2%;
+                    overflow: hidden;
+                    justify-content: end;
+                    position: relative;
+                    left: 22%;
+                }
+                .carousel-inner {
+                    position: relative;
+                    width: 100%;
+                    overflow: hidden;
+    }
+    
+    .section2{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        font-size: 100%;
+            }
+            .cafes{
+                margin-top: 0%;
+                }
+            .textonuestrocafe2 {
+                margin: 1px;
+                margin-top: 3%;
+                font-size: 214%;
+                text-align: center;
+                padding: 0px;
+    } 
+
+    .carta{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+           }
+           .producto {
+            width: 40%;
+            transition: all 2s;
+            }
+            .producto:hover{
+            width: 50%;
+            }
+    
+            .textocarta {
+            margin: 1px;
+            font-size: 170%;
+            padding: 0px;
+    }
+    
+
+    .textoEventos{
+        text-align: center; 
+    }
+
+    .eventofoto{
+        width: 93%;
+}
+footer{
+    display: grid;
+    grid-template-columns: 80%;
+    background-size: 100%;
+    background-position: center bottom -10cm
+}
+}
+
+
+

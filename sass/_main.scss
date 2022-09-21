@@ -1,6 +1,6 @@
 main{
     display: grid;
-    grid-template-rows: 660px ;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     grid-area: main;
     width: 100%;
