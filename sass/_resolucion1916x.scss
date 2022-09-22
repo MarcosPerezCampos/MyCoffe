@@ -159,14 +159,22 @@
             padding: 0px;
     }
     
+    .maineventos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+                }
+                .textoEventos{
+                    text-align: center; 
+                }
+                .eventofoto{
+                    width: 90%;
+                    height: 90%;
+                }
+                
+    
 
-    .textoEventos{
-        text-align: center; 
-    }
-
-    .eventofoto{
-        width: 93%;
-}
+    
 footer{
     display: grid;
     grid-template-columns: 80%;

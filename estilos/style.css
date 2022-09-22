@@ -331,6 +331,11 @@ footer {
     grid-template-rows: 1fr;
     font-size: 150%;
   }
+  .maineventos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 @media (min-width: 768px) {
   * {
@@ -367,10 +372,21 @@ footer {
   .carrusel {
     margin-right: 4%;
   }
+  .carousel-item1 {
+    position: relative;
+    left: 4%;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+  }
   section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
   }
   footer {
     background-position: center bottom -3cm;
@@ -384,8 +400,18 @@ footer {
     justify-items: end;
     margin: 3px;
     margin-left: 0px;
-    width: 100%;
+    height: 100%;
     padding: 0px;
+  }
+  .producto {
+    width: 70%;
+    transition: all 2s;
+  }
+  .main2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    font-size: 135%;
   }
   .textonuestrocafe, .textoEventos {
     margin: 1px;
@@ -395,39 +421,16 @@ footer {
     padding: 0px;
   }
   .carrusel2 {
-    width: 95%;
+    width: 50%;
     margin-top: 2%;
     overflow: hidden;
     justify-content: center;
     position: relative;
-    left: 0%;
+    left: 25%;
   }
-  .cafes {
-    justify-content: center;
-    margin-top: 1%;
-    height: 100%;
-    overflow: hidden;
+  .carousel-item2 {
     position: relative;
-  }
-  .main2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    font-size: 135%;
-  }
-  .section2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    font-size: 100%;
-  }
-  .producto {
-    width: 70%;
-    transition: all 2s;
-  }
-  .carousel-item {
-    position: relative;
-    left: 4%;
+    left: -25%;
     display: none;
     float: left;
     width: 100%;
@@ -435,6 +438,19 @@ footer {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.6s ease-in-out;
+  }
+  .section2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 100%;
+  }
+  .cafes {
+    justify-content: center;
+    margin-top: 1%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
   }
   .textonuestrocafe2 {
     margin: 1px;
@@ -608,11 +624,17 @@ footer {
     font-size: 170%;
     padding: 0px;
   }
+  .maineventos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
   .textoEventos {
     text-align: center;
   }
   .eventofoto {
-    width: 93%;
+    width: 90%;
+    height: 90%;
   }
   footer {
     display: grid;

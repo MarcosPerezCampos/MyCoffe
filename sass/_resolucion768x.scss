@@ -26,21 +26,29 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-    }
-
-    .divindex{
-        margin-top: 2%;
-        font-size: 96%;
-    }
-
-    .carrusel{
-        margin-right: 4%;
-    }
+           }
+           .divindex{
+            margin-top: 2%;
+            font-size: 96%;
+           }
+           .carrusel{
+            margin-right: 4%;
+           }
+           .carousel-item1{
+            position: relative; left: 4%;
+            display: none;
+            float: left;
+            width: 100%;
+            margin-right: -100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transition: transform .6s ease-in-out;
+        }
 
     section{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
     }
 
     footer{
@@ -50,81 +58,80 @@
     .formulario{
         display: grid;
         grid-template-columns: 1fr 1fr;
+         }
+         .corazon{
+            overflow: hidden;
+            justify-items: end;
+            margin: 3px;
+            margin-left: 0px;
+            height: 100%;
+            
+            padding: 0px;
     }
 
-    .corazon{
-        overflow: hidden;
-        justify-items: end;
-        margin: 3px;
-        margin-left: 0px;
-        width: 100%;
-        padding: 0px;
-    }
-
-    .textonuestrocafe{
-        margin: 1px;
-        margin-top: 2%;
-        text-align: center;
-        font-size: 100%;
-        padding: 0px;
-    }
-
-    .carrusel2{
-        width: 95%;
-        margin-top: 2%;
-        overflow: hidden;
-        justify-content: center;
-        position: relative; left: 0%;
-    }
-
-    .cafes{
-        justify-content: center;
-        margin-top: 1%;
-        height: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .main2 {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        font-size: 135%;
-    }
-
-    .section2{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        font-size: 100%;
-    }
-
-    
 
     .producto {
         width: 70%;
         transition: all 2s;
     }
 
-    .carousel-item {
-        position: relative; left: 4%;
-        display: none;
-        float: left;
-        width: 100%;
-        margin-right: -100%;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        transition: transform .6s ease-in-out;
-    }
 
-    .textonuestrocafe2{
-        margin: 1px;
-        margin-top: 3%;
-        font-size: 160%;
-        text-align: left;
-        padding: 0px;
-    }
 
+    .main2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        font-size: 135%;
+           }
+           .textonuestrocafe{
+            margin: 1px;
+            margin-top: 2%;
+            text-align: center;
+            font-size: 100%;
+            padding: 0px;
+           }
+
+           .carrusel2{
+            width: 50%;
+            margin-top: 2%;
+            overflow: hidden;
+            justify-content: center;
+            position: relative; left: 25%;
+           }
+           .carousel-item2{
+            position: relative; left: -25%;
+            display: none;
+            float: left;
+            width: 100%;
+            margin-right: -100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transition: transform .6s ease-in-out;
+          }
+          
+
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        font-size: 100%;
+         }
+         .cafes{
+            justify-content: center;
+            margin-top: 1%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        .textonuestrocafe2{
+            margin: 1px;
+            margin-top: 3%;
+            font-size: 160%;
+            text-align: left;
+            padding: 0px;
+        }
+    
+        
     .textoEventos{
         text-align: center;
     }
