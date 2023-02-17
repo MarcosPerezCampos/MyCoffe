@@ -1,42 +1,50 @@
+const carrito = []
 
-// let entrada = prompt ("Que decea comprar? ")
-// console.log(entrada)
-// while (entrada != "Exit"){
-// alert("El usuario ingreso:"+entrada)
-// entrada = prompt("Que mas quiere comprar?, si desea salir escriba Exit")
-// console.log(entrada)
-// }
+const ordenarMenorMayor = () => {
+    stock.sort((a,b) => a.precio - b.precio)
+    listaProductos()
+};
 
-// Inicializador variables
+const listaProductos = () => {
+    const lista = stock.map(producto => {
+        return "-"+producto.nombre+" $"+producto.precio
+    })
+    
+    alert("Lista de productos: "+"\n\n"+lista.join("\n"))
+    comprarProductos(lista)
+};
 
- let producto = ""
- let precio = 0
- let cantidad = 0
- let precioTotal = 0
- let seguirComprando = false
+const comprarProductos = (lista) => {
+    let productoNombre = ""
+    let productoCantidad = 0
+    let otroProducto = false
 
- do {
-     producto = prompt("Que desea comprar:  Cafes, Tortas o ambos?")
-     cantidad = parseInt(prompt("Cuantos queres comprar?"))
+    do {
+        productoNombre = prompt ("Que producto desea comprar hoy?"+"\n\n"+lista.join("\n"))
+        productoCantidad = parseInt(prompt("Cuantos queres comprar?"))
+        
+        const producto = stock.find(producto => producto.nombre.toLowerCase() === productoNombre.toLowerCase())
+        
+        if(producto){
+            agregarAlcarrito(producto, producto.id, productoCantidad)
+        }else {
+            alert( "El producto no se encuentra en el catalogo")
+        }
 
-     switch (producto) {
-         case "Cafes":
-             precio = 1000
-             break
-         case "Tortas":
-             precio = 400
-         case "ambos":
-             precio = 1400
-             break
-         default:
-             alert ("El producto no se encuentra en el catalogo!")
-             precio = 0
-             cantidad = 0
-     }
+        otroProducto = confirm ("Desea agregar otro producto?")
+    } while (otroProducto);
+};
 
-     precioTotal += precio*cantidad
+const agregarAlcarrito = (producto, productoId, productoCantidad) => {
+    const productoRepetido = carrito.find(producto => producto.id === productoId)
 
-     seguirComprando = confirm ("Queres seguir comprando?")
- } while (seguirComprando)
+    if (productoRepetido) {
+        productoRepetido.cantidad += productoCantidad
+    } else {
+        producto.cantidad += productoCantidad
+        carrito.push(producto)
+    }
+    console.log(carrito)
 
- alert ("El precio total de la compra es: "+precioTotal)
+}
+ordenarMenorMayor()
