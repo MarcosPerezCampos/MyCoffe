@@ -15,30 +15,6 @@ main{
     
 }
 
-
-
-.carta{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color:#E6CCB2;
-    text-align:center;
-    font-style: initial;
-    font-size: 140%;
-    margin: 0px;
-    padding: 1;
-    .producto{
-        margin: 1px;
-        padding: 0px;
-    }
-    
-    .textocarta{
-        margin: 1px;
-        font-size: 170%;
-        padding: 0px;
-    }
-}
-
 .textonuestrocafe{
     margin: 1px;
     margin-top: 7%;

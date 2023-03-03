@@ -140,25 +140,6 @@
                 padding: 0px;
     } 
 
-    .carta{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-           }
-           .producto {
-            width: 40%;
-            transition: all 2s;
-            }
-            .producto:hover{
-            width: 50%;
-            }
-    
-            .textocarta {
-            margin: 1px;
-            font-size: 170%;
-            padding: 0px;
-    }
-    
     .maineventos{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
