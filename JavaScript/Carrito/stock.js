@@ -5,7 +5,7 @@ const productos =
     id: 1,
     nombre: "Cappucino",
     tipo: "Cafe caliente",
-    desc: "Espresso colombiano, leche cremada y cacao",
+    desc: "Cappuccino doble bien cremoso, con café colombiano y leche",
     precio: 600,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/Cappucino.jpg'
@@ -15,7 +15,7 @@ const productos =
     id: 2,
     nombre: "Espresso Irlandes",
     tipo: "Cafe caliente",
-    descripcion: "Cafe espresso colombiano con wisky escoces",
+    desc: "Cafe espresso con menta",
     precio: 500,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/EspressoIrlandes.jpg'
@@ -26,7 +26,7 @@ const productos =
     id: 3,
     nombre: "Mocha Chocolate",
     tipo: "Cafe caliente",
-    descripcion: "Cappuccino doble bien cremoso, con café colombiano y leche",
+    desc: "Cafe con leche y chocolate",
     precio: 700,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/MochaChocolate.jpg'
@@ -35,8 +35,8 @@ const productos =
 {
     id:4 ,
     nombre: "Torta Chocolate",
-    tipo: "Cafe Frio",
-    descripcion: ": Trago helado y cremoso a base de hielo, leche y café con crema batida",
+    tipo: "Torta",
+    desc: "Torta de Chocolate, con salsa de chocolate y relleno de chocolate",
     precio: 850,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/TortaChocolate.jpg'
@@ -45,8 +45,8 @@ const productos =
 {
     id:5,
     nombre:"Torta mix",
-    tipo:"Cafe Frio",
-    descripcion:": Trago helado preparado a base de hielo, leche y crema",
+    tipo:"Torta",
+    desc:"Torta Mix de Vainilla y Chocolate",
     precio: 700,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/Tortamix.jpg'
@@ -55,8 +55,8 @@ const productos =
 {
     id:6,
     nombre:"Torta 3",
-    tipo:"Cafe Frio",
-    descripcion:": Trago helado preparado a base de hielo, leche y crema",
+    tipo:"Torta",
+    desc:"Torta Lemon Pie",
     precio: 700,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/Torta3.jpg'
