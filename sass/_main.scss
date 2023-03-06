@@ -1,3 +1,4 @@
+// Todos los mains utilizados
 main{
     display: grid;
     grid-template-rows: 1fr;
@@ -14,33 +15,29 @@ main{
      }
     
 }
-
-.textonuestrocafe{
-    margin: 1px;
-    margin-top: 7%;
-    text-align: left;
-    font-size: 160%;
-    padding: 0px;
-    
+.main2{
+    .textonuestrocafe{
+        margin: 1px;
+        margin-top: 7%;
+        text-align: left;
+        font-size: 160%;
+        padding: 0px;
+        
+    }
+    .carrusel2{
+        width: 95%;
+        margin-top: 15%;
+        overflow: hidden;
+        justify-content: center;
+        position: relative; left: 0%;
+    }
 }
 
-.carrusel2{
-    width: 95%;
-    margin-top: 15%;
-    overflow: hidden;
-    justify-content: center;
-    position: relative; left: 0%;
-}
 
 .mainEventos{
     font-size: 150%;
+    .eventofoto{
+        width: 100%;
+    }
 }
 
-.textoEventos{
-    @extend.textonuestrocafe;
-    text-align: center;
-    
-}
-.eventofoto{
-    width: 100%;
-}

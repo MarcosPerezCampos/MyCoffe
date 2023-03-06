@@ -1,3 +1,5 @@
+//Sections del Css
+
 section{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -8,6 +10,7 @@ section{
     text-align: center;
     font-style: initial;
     font-size: 160%;
+
     .formulario{
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -23,20 +26,23 @@ section{
                           }
             
 }
+section{
+    .divindex{
+        margin-top: 6%;
+        text-align: justify;
+        .video{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            
+        }
+     }
+}
 
-.divindex{
-    margin-top: 6%;
-    text-align: justify;
-    .video{
-        margin: 0px;
-        padding: 0px;
-        width: 100%;
-        height: 100%;
-        
-    }
- }
 
 section{
+
     .cafes{
         justify-content: center;
         margin: 0%;

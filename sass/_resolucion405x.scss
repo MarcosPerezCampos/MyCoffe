@@ -7,52 +7,69 @@
         background-color: #E6CCB2;
         list-style: none;  
         overflow: hidden;
-          }
-          li{
-            position:relative; left: -30px;
+
+           li{
+            left: -30px;
             font-size: 150%;
             text-align: left;    
-        }
+            }
 
+          }
+          
     main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr; 
-        }
-       
+
         .divindex{
             margin-top: 0%;
             text-align: justify;
             font-size: 85%;
         }
+
         .carrusel{
             margin: 1%;
             position: relative; left: -3%;
             width: 100%;
             overflow: hidden;
         }
-    
-    
+
         .carousel-control-prev {
             left: 14px;
-    }
+        }
     
+        }
 
     section{
         display: grid;
         grid-template-columns:1fr;
         grid-template-rows: 1fr 2fr;
         font-size: 150%;
-                   }
-                  
-                   .video{
-                    margin: 0px;
-                    padding: 0px;
-                    width: 100%;
-                    
-                }
 
-    
+        .video{
+            margin: 0px;
+           padding: 0px;
+           width: 100%;
+           }
+
+           .formulario{
+               display: grid;
+               grid-template-columns: 1fr;
+               grid-template-rows: 1fr;
+           }
+       
+           .corazon{
+               overflow: hidden;
+               justify-items: end;
+               margin: 0px;
+               margin-left: 0px;
+               width: 100%;
+               padding: 0px;
+           }
+    }
+                  
+                
+            
 
     footer{
         background-size: 100%;
@@ -60,75 +77,64 @@
     }
 
 
-    .formulario{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;}
-
-    .corazon{
-        overflow: hidden;
-        justify-items: end;
-        margin: 0px;
-        margin-left: 0px;
-        width: 100%;
-        padding: 0px;
-    }
-
+    
    
     .main2{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr ; 
         font-size: 65%;
+
+        .carrusel2{
+            width: 95%;
+            height: 95%;
+            margin-top: 2%;
+            overflow: hidden;
+            justify-content: center;
+            position: relative; left: 0%;
+        }
+    
+        .carousel-inner {
+            position: relative;
+            width: 115%;
+            overflow: hidden;
+        }
+
+        .textonuestrocafe{
+            margin: 3px;
+            margin-top: 5%;
+            text-align: left;
+            font-size: 200%;
+            padding: 0px;
+        }
     }
 
-    .carrusel2{
-        width: 95%;
-        height: 95%;
-        margin-top: 2%;
-        overflow: hidden;
-        justify-content: center;
-        position: relative; left: 0%;
-    }
-
-    .carousel-inner {
-        position: relative;
-        width: 115%;
-        overflow: hidden;
-    }
+    
 
     .section2{
         display: grid;
         grid-template-columns:1fr;
         grid-template-rows: 1fr;
         font-size: 90%;
-        
+
+        .textonuestrocafe2{
+            margin: 1px;
+            margin-top: 3%;
+            font-size: 110%;
+            text-align: left;
+            padding: 0px;
+        }
     }
 
-    .textonuestrocafe2{
-        margin: 1px;
-        margin-top: 3%;
-        font-size: 110%;
-        text-align: left;
-        padding: 0px;
+    .maineventos{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 1fr;
+        .eventofoto{
+            width: 90%;
+        }
     }
-
-    .textonuestrocafe{
-        margin: 3px;
-        margin-top: 5%;
-        text-align: left;
-        font-size: 200%;
-        padding: 0px;
-    }
-
-    .textoEventos{
-        text-align: center;   
-    }
-
-    .eventofoto{
-        width: 90%;
-    }
-
+    
     .section3{
         display: grid;
         grid-template-columns:1fr;
@@ -136,9 +142,5 @@
         font-size: 150%;
     }
 
-    .maineventos{
-        display: grid;
-        grid-template-columns:1fr;
-        grid-template-rows: 1fr;
-    }
+    
 }
