@@ -6,6 +6,7 @@ const productos =
     nombre: "Cappucino",
     tipo: "Cafe caliente",
     desc: "Cappuccino doble bien cremoso, con café colombiano y leche",
+    precio$: "$600",
     precio: 600,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/Cappucino.jpg'
@@ -16,6 +17,7 @@ const productos =
     nombre: "Espresso Irlandes",
     tipo: "Cafe caliente",
     desc: "Cafe espresso con menta",
+    precio$: "$500",
     precio: 500,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/EspressoIrlandes.jpg'
@@ -27,6 +29,7 @@ const productos =
     nombre: "Mocha Chocolate",
     tipo: "Cafe caliente",
     desc: "Cafe con leche y chocolate",
+    precio$: "$700",
     precio: 700,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/MochaChocolate.jpg'
@@ -37,6 +40,7 @@ const productos =
     nombre: "Torta Chocolate",
     tipo: "Torta",
     desc: "Torta de Chocolate, con salsa de chocolate y relleno de chocolate",
+    precio$: "$850",
     precio: 850,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/TortaChocolate.jpg'
@@ -47,6 +51,7 @@ const productos =
     nombre:"Torta mix",
     tipo:"Torta",
     desc:"Torta Mix de Vainilla y Chocolate",
+    precio$: "$700",
     precio: 700,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/Tortamix.jpg'
@@ -57,6 +62,7 @@ const productos =
     nombre:"Torta 3",
     tipo:"Torta",
     desc:"Torta Lemon Pie",
+    precio$: "$700",
     precio: 700,
     cantidad: 1,
     imagen: '../Imagenes/Carrito/Torta3.jpg'

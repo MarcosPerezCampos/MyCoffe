@@ -13,21 +13,25 @@
         overflow: hidden;
         font-size: 130%;
         width: 100%;
+
+        ul{
+            margin-top: 2%;
+                   }
+                   li{
+                    position:relative; left: 10px;
+                    font-size: 90%;
+                   }
+
                     }
-                    ul{
-                       margin-top: 2%;
-                              }
-                              li{
-                              position:relative; left: 10px;
-                              font-size: 90%;
-                             }
+                    
+                              
 
     main{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-           }
-           .divindex{
+
+        .divindex{
             margin-top: 2%;
             font-size: 96%;
            }
@@ -45,37 +49,36 @@
             transition: transform .6s ease-in-out;
         }
 
+           }
+           
     section{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
-    }
 
-    footer{
-        background-position: center bottom -3cm;
+        .formulario{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+             }
+             .corazon{
+                overflow: hidden;
+                justify-items: end;
+                margin: 3px;
+                margin-left: 0px;
+                height: 100%;
+                
+                padding: 0px;
+        }
     }
-
-    .formulario{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-         }
-         .corazon{
-            overflow: hidden;
-            justify-items: end;
-            margin: 3px;
-            margin-left: 0px;
-            height: 100%;
-            
-            padding: 0px;
-    }
+    
 
     .main2 {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         font-size: 135%;
-           }
-           .textonuestrocafe{
+
+        .textonuestrocafe{
             margin: 1px;
             margin-top: 2%;
             text-align: center;
@@ -101,14 +104,16 @@
             transition: transform .6s ease-in-out;
           }
           
+           }
+           
 
     .section2{
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         font-size: 100%;
-         }
-         .cafes{
+
+        .cafes{
             justify-content: center;
             margin-top: 1%;
             height: 100%;
@@ -122,13 +127,15 @@
             text-align: left;
             padding: 0px;
         }
-    
-        
-    .textoEventos{
-        text-align: center;
-    }
+         }
+         
 
     .eventofoto{
         width: 90%;
     }
+
+    footer{
+        background-position: center bottom -3cm;
+    }
+
 }

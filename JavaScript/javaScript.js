@@ -1,16 +1,32 @@
 // Bienvenida
 
-function solicitarNombre(){
-let nombreIngresado = prompt("Ingrese su nombre:")
+(async () => {
+    const {value: nombre} = await Swal.fire({
+    title: 'Bienvenido',
+    text: 'Escribe tu nombre',
+    icon: 'info',
+    confirmButtonText: 'Enviar',
+    backdrop: true,
+    position: 'center',
+    allowOutsideClick: true,
+    allowEscapeKey: false,
+    allowEnterKey: false,
+    stopkeydownPropagation: false,
 
-    if (nombreIngresado == "") {
-    alert("No ingresaste ningun nombre")
+    input: 'text',
+    inputPlaceholder: 'Nombre',
+    imputValue: ''
 
-    } else {
-    alert("Bienvenido a My Coffe " + nombreIngresado)
-    console.log(nombreIngresado)
-}
-}
+    });
 
-solicitarNombre()
+    if (nombre){
+        Swal.fire(`Bienvenido a My Coffe ${nombre}`,)
+        
+           }; 
+           
+    
+} )()
+
+
+
 

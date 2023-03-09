@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="contacto">
     <meta name="description" content="Queremos que te contactes con nosotros por eso te dejamos este espacio">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/style.css">
     <title>Contacto</title>
@@ -37,54 +38,45 @@
     </Header>  
 
     <section class="formulario">
-			<form>
+			<form id="form">
         
                 <div class="div1">
                 <label for="Ej.Marcos Perez">Nombre Completo</label>
-				<input type="text" placeholder="Ej:Marcos Perez"></div>
+				<input id="name" type="text" placeholder="Ej:Marcos Perez"></div>
 
                 <div class="div2">
 				<label for="email">Tu Correo:
-				<input type="email" placeholder="Ej:Marcos_123@gmail.com" name="email"><br>
+				<input id="correo" type="email" placeholder="Ej:Marcos_123@gmail.com" name="email"><br>
 				</label></div>
 
                 <div class="div3"><p>
-				<label for="Texto"> Cuentanos en que te podemos ayudar:<br>
-					<textarea placeholder="Texto"></textarea>
-				</label> <br>
-                </p></div>
+				<label  for="Texto"> Cuentanos en que te podemos ayudar:<br>
+				</label></p>
+                <textarea id="text" placeholder="Texto"></textarea> <br></div>
 
                 <div>
-                    <label for="Edad">Edad</label>
-				<input type="number" placeholder="Edad"><br>
+                <label for="Edad">Edad</label>
+				<input id="age" type="number" placeholder="Edad"><br>
                 <p></div>
 
                 <div>Hombre</div>
-                <input type="radio" name="Sexo" value="Hombre" />
+                <input id="man" type="radio" name="Sexo" value="Hombre" />
                 <div>Mujer</div>
-                <input type="radio" name="sexo" value="Mujer" /> 
+                <input id="women" type="radio" name="sexo" value="Mujer" /> 
+                <br>
 
 				<div><p>Que prefiere mas?:</p>
 					<div>Pedir para llevar
-						<input type="radio" name="lado" value="Pido para llevar">
+						<input id="delivery" type="radio" name="lado" value="Pido para llevar">
 					</div>
 					<div>Consumir en el local
-						<input type="radio" name="lado" value="Consumo en el local">
+						<input id="consumoLocal" type="radio" name="lado" value="Consumo en el local">
 					</div>
 				</div>
-                <div>
-				<p>Que Café te gusta mas?</p>
-				<select name="letra" id="letra"> 
-					<option value="Cappuccino">Cappuccino</option>
-					<option value="Expresso/ Café solo">Expresso/ Café solo</option>
-					<option value="Café con leche">Café con leche</option>
-				</select>
-                </div>
 
                 <div><p>
-				<div> Quiere enviar el formulario?
-				<input type="checkbox" name="acepta" value="1"></div>
-				<input type="submit" value="Enviar">
+				<div> Quiere enviar el formulario? </div>
+				<input id="finalizar" type="submit" value="Enviar">
 				<input type="reset" value="Resetear">
                 </p> </div>
 			</form>
