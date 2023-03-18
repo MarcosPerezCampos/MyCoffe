@@ -7,6 +7,19 @@
   box-sizing: border-box;
 }
 
+.botonComprar{
+  padding: 0.3rem 3rem;
+    letter-spacing: var(--mainSpacing);
+    font-size: 2rem;
+    background: #E6CCB2;
+    border: 1px solid black;
+    border-radius: 30px;
+    transition: var(--mainTransition);
+    cursor: pointer;
+    font-weight: 700;
+    position: relative; left: 45%;
+}
+
 @media (min-width:320px){
   img {
     width: 100%;
@@ -86,7 +99,7 @@ p {
 }
 
 .card {
-  max-width: 100%;
+  max-width: 90%;
   padding: 10px;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
@@ -94,7 +107,7 @@ p {
 }
 
 .card:hover{
-  max-width: 115%;
+  max-width: 100%;
   }
 
 select {

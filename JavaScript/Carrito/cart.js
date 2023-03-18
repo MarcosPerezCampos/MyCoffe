@@ -1,5 +1,5 @@
 const productoContenedor = document.getElementById('producto-contenedor')
-
+let boton = document.getElementById("comprame")
 let carrito = []
 
 // Delegación de eventos
@@ -7,7 +7,13 @@ productoContenedor.addEventListener('click', (e) => {
     if (e.target.classList.contains('agregar')) {
         validarProductoEnCarrito(e.target.id)
     }
+
 })
+
+comprame.onclick = () => {
+Swal.fire("CONGRATULATIONS! 🔥", "Gracias por su compra!", "success");
+}
+
 
 const validarProductoEnCarrito = (productoId) => {
     const estaRepetido = carrito.some(producto => producto.id == productoId)
@@ -64,18 +70,19 @@ const eliminarProductoCarrito = (productoId) => {
     actualizarTotalesCarrito(carrito)
 };
 
+
+
 const actualizarTotalesCarrito = (carrito) => {
     const totalCantidad = carrito.reduce((acc, prod) => acc + prod.cantidad, 0)
     const totalCompra = carrito.reduce((acc, prod) => acc + (prod.precio * prod.cantidad), 0)
 
     const contadorCarrito = document.getElementById('contador-carrito')
     const precioTotal = document.getElementById('precioTotal')
-
     contadorCarrito.innerText = totalCantidad
     precioTotal.innerText = totalCompra
-
     guardarCarritoStorage(carrito)
 };
+
 
 const guardarCarritoStorage = (carrito) => {
     console.log(carrito)
